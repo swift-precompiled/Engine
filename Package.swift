@@ -5,7 +5,7 @@ import Foundation
 import CompilerPluginSupport
 
 let package = Package(
-    name: "source",
+    name: "Engine",
     platforms: [
         .iOS("13.0"),
         .macOS("10.15"),
@@ -43,8 +43,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Engine",
-            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1/Engine-93953cf8cb4800265cb9f108a9faaa53bb39a718eba99273914e664e62b78748.xcframework.zip",
-            checksum: "93953cf8cb4800265cb9f108a9faaa53bb39a718eba99273914e664e62b78748"
+            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1-precompiled.1/Engine-ae5a2dbb77ed501104ff039c39fff57b09b89d530d84d779f0b677700c42b526.xcframework.zip",
+            checksum: "ae5a2dbb77ed501104ff039c39fff57b09b89d530d84d779f0b677700c42b526"
         ),
         .target(
             name: "EngineExtensions_Aggregation",
@@ -52,8 +52,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "EngineExtensions",
-            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1/EngineExtensions-1976b9c89ee8f2da64e975bba41a0454208c2164b650b32bd20a34c59a86b9b6.xcframework.zip",
-            checksum: "1976b9c89ee8f2da64e975bba41a0454208c2164b650b32bd20a34c59a86b9b6"
+            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1-precompiled.1/EngineExtensions-25d87681e372399bf6211c5ce6dae7719785337fd483e25218abf1354b3529b6.xcframework.zip",
+            checksum: "25d87681e372399bf6211c5ce6dae7719785337fd483e25218abf1354b3529b6"
         ),
         .target(
             name: "EngineCore_Aggregation",
@@ -61,8 +61,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "EngineCore",
-            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1/EngineCore-a18aa0ce55b60cd983c911153c72b25ff088f2db5edc442b92b7a77215820e25.xcframework.zip",
-            checksum: "a18aa0ce55b60cd983c911153c72b25ff088f2db5edc442b92b7a77215820e25"
+            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1-precompiled.1/EngineCore-9a3383295ada61b12e83cb51aacdc356297420d46ebe09cfc83c4a1c8fe0ef2f.xcframework.zip",
+            checksum: "9a3383295ada61b12e83cb51aacdc356297420d46ebe09cfc83c4a1c8fe0ef2f"
         ),
         .target(
             name: "EngineCoreC_Aggregation",
@@ -70,8 +70,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "EngineCoreC",
-            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1/EngineCoreC-c1fc6a9a949381b941be6c72f4145037654aa3fc2618e65e4fa15ec817171e08.xcframework.zip",
-            checksum: "c1fc6a9a949381b941be6c72f4145037654aa3fc2618e65e4fa15ec817171e08"
+            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1-precompiled.1/EngineCoreC-bae174a40056d89fd4dea1abf9cddcafda65b367a08b45d948e807ccaa37d767.xcframework.zip",
+            checksum: "bae174a40056d89fd4dea1abf9cddcafda65b367a08b45d948e807ccaa37d767"
         ),
         .target(
             name: "EngineMacros_Aggregation",
@@ -83,8 +83,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "EngineMacros",
-            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1/EngineMacros-96c43aee3dd83475310e7b648e77a77b98c7fc5cf539a0d56d7e714aa3363e4c.xcframework.zip",
-            checksum: "96c43aee3dd83475310e7b648e77a77b98c7fc5cf539a0d56d7e714aa3363e4c"
+            url: "https://github.com/swift-precompiled/Engine/releases/download/2.13.1-precompiled.1/EngineMacros-4ffe79dc38220d9ceb7a03f06b2e80f0ba52458747568a04b15cff9388604603.xcframework.zip",
+            checksum: "4ffe79dc38220d9ceb7a03f06b2e80f0ba52458747568a04b15cff9388604603"
         ),
         .macro(
             name: "EngineMacrosCore",
